@@ -11,6 +11,13 @@
   padding: 0 20px;
 }
 
+.voltar {
+  display: flex;
+  justify-content: center;
+  padding: 12px 20px;
+  margin: 8px 0 16px;
+}
+
 .voltar button {
   appearance: none;
   background-color: transparent;
@@ -24,24 +31,22 @@
   font-weight: 600;
   line-height: normal;
   margin: 0;
-  min-height: 60px;
-  min-width: 0;
+  min-height: 44px;
   outline: none;
-  padding: 10px 10px;
+  padding: 10px 16px;
   text-align: center;
   text-decoration: none;
   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 100px;
   will-change: transform;
-  display: flex;
-  display: block;
-  width: 400px;
-  margin-left: 20%;
-  position: absolute;
-  margin-top: 2%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  max-width: 100%;
+  position: static;
 }
 
 .voltar button:disabled {
@@ -214,5 +219,18 @@ h3 {
   .hero-imagem {
     width: 120px;
     height: 120px;
+  }
+}
+
+@media (max-width: 600px) {
+  .voltar {
+    padding: 0 16px;
+  }
+  .voltar button {
+    padding: 10px 14px;
+    font-size: 0.95rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
   }
 }

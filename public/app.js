@@ -28,9 +28,8 @@ const postagens = [
     titulo: "Ruído seco na dianteira do Civic 2014",
     categoria: "Suspensão",
     fotos: [
-      "imagens/barney.jpeg",
-      "imagens/Screenshot_1.png",
-      "imagens/home page.png"
+      "imagens/fastback 11.jpg",
+      "imagens/fastback 12.jpg",
     ]
   },
   {
@@ -43,9 +42,8 @@ const postagens = [
     titulo: "Vibração no volante acima de 100 km/h",
     categoria: "Rodagem",
     fotos: [
-      "imagens/Perfil 3.png",
-      "imagens/responnsividade css.jpg",
-      "imagens/Screenshot_1.png"
+      "imagens/fastback 13.jpg",
+      "imagens/fastback 14.jpg",
     ]
   },
   {
@@ -59,7 +57,7 @@ const postagens = [
     categoria: "Injeção Eletrônica",
     fotos: [
       "imagens/Perfil 4.jpg",
-      "imagens/Site pronto.png",
+      "imagens/fastback 15.jpg",
       "imagens/wireframe.jpg"
     ]
   },
@@ -73,9 +71,7 @@ const postagens = [
     titulo: "Ruído na bomba de combustível ao ligar",
     categoria: "Combustível",
     fotos: [
-      "imagens/perfil 5.png",
-      "imagens/home page.png",
-      "imagens/Screenshot_1.png"
+      "imagens/fastback 15.jpg"
     ]
   }
 ];
